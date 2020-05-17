@@ -2,7 +2,7 @@ module AbstractFactory
   module TableFactory
     class TableLink < AbstractFactory::Factory::Link
       def initialize(caption, url)
-        super(caption, url)
+        super
       end
 
       def make_html

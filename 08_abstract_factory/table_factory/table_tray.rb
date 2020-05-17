@@ -2,7 +2,7 @@ module AbstractFactory
   module TableFactory
     class TableTray < AbstractFactory::Factory::Tray
       def initialize(caption)
-        super(caption)
+        super
       end
 
       def make_html

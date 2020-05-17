@@ -4,7 +4,7 @@ module AbstractFactory
   module ListFactory
     class ListLink < AbstractFactory::Factory::Link
       def initialize(caption, url)
-        super(caption, url)
+        super
       end
 
       def make_html

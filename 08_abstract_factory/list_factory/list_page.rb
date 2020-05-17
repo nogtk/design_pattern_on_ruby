@@ -4,7 +4,7 @@ module AbstractFactory
   module ListFactory
     class ListPage < AbstractFactory::Factory::Page
       def initialize(title, author)
-        super(title, author)
+        super
       end
 
       def make_html

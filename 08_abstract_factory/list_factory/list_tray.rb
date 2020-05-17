@@ -4,7 +4,7 @@ module AbstractFactory
   module ListFactory
     class ListTray < AbstractFactory::Factory::Tray
       def initialize(caption)
-        super(caption)
+        super
       end
 
       def make_html

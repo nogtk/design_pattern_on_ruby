@@ -2,7 +2,7 @@ module AbstractFactory
   module TableFactory
     class TablePage < AbstractFactory::Factory::Page
       def initialize(title, author)
-        super(title, author)
+        super
       end
 
       def make_html
