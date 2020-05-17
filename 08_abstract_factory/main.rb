@@ -1,5 +1,6 @@
 require_relative 'factory/factory'
 require_relative 'list_factory/list_factory'
+require_relative 'table_factory/table_factory'
 
 module AbstractFactory
   class Main
